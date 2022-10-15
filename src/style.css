@@ -16,7 +16,7 @@ strong {
   height: 350px;
   width: 250px;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   border: 1px solid;
   position: relative;
   padding-top: 180px;
@@ -54,12 +54,16 @@ strong {
   color: red;
 }
 
-button {
-  background: violet;
+.btn {
+  background: rgb(92, 10, 140);
   position: absolute;
   top: 425px;
   left: 45%;
-  border-radius: 10px;
+  border-radius: 5px;
   width: 10%;
-  height: 5%;
+  height: auto;
+}
+
+.btn:hover {
+  background: rgb(39, 92, 144);
 }
